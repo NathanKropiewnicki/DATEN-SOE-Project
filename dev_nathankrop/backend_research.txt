@@ -1,0 +1,46 @@
+Data Modeling and Database Design(Work with Manny)
+1. Decide which information needs to be stored
+2. Create database tables and relationships
+3. Ensure constraints for example donation amounts cannot be negative
+
+API's
+1. Allow frontend UI to interact with backend
+Ex: POST /donations
+    GET /donations
+    GET /donors/{id}
+    DELETE /donations/{id}
+
+Authentication and Authorization
+1. Ensure only church staff can see sensitive data
+2. Support different roles 
+
+Data Validation
+1. Handling errors
+2. Prevent invalid inputs
+3. Error messages
+
+Security
+1. future improvements 
+
+Integration
+1. Payment processing 
+  ex: stripe, paypal etc.
+2. exporting donations to csv for reporting
+
+Example database tables and columns
+  Donors:
+    id, name, email, phone
+  Donations:
+    id, donor_id, amount, date, method, fund
+
+What the stack will look like
+1.Node.js, python etc.
+2. MySQL/PostgreSQL
+3. Rest API
+
+What am I in charge of: Database schema (ERD diagram, SQL migrations).
+  Backend server code (routes, controllers, services).
+  API documentation (so the frontend team knows how to call your backend).
+  Unit tests (to prove your logic works).
+  Deployment setup (local or cloud if required).
+    
