@@ -3,7 +3,6 @@ Bethel University Project for CSC 340 Software Engineering Theory.
 
 Collaborators:
 <ul>
-  <br>
   Nathan Kropiewnicki,
   <br>
   Tyler Moroni ,
