@@ -1,7 +1,7 @@
 # DATEN-SOE-Project
 Bethel University Project for CSC 340 Software Engineering Theory.
 
-Collaborators:
+<strong>Collaborators:</strong>
 <ul>
   Nathan Kropiewnicki,
   <br>
