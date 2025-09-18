@@ -1,1 +1,15 @@
+Ideas for frontend dev
+Look into Electron if we are doing an application (Javascript, Css, Html)
+// https://www.electronjs.org/ 
+
+Pick a scrum board
+
+Look into accessablity for dissablites? (color blind, dyslexic, other) 
+{note this is more for final rather than now}
+
+Make it easily understoond 
+
+visuals (graph?, numbers?, percentages?, other?)
+
+diffrnet pages (one for donatins, income, spending, other?)
 
