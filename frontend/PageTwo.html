@@ -23,19 +23,24 @@
                 <div class="container">
                     <form action="https://www.w3schools.com/action_page.php">
                   
+                      <!-- make name only accept letters and spaces and need to be filled out-->
                       <label for="name">Name First and Last</label>
-                      <input type="text" id="name" name="name" placeholder="Your name..">
+                      <input type="text" id="name" name="name" placeholder="Your name.." pattern="[A-Za-z\s]+" title="Please enter letters and spaces only" required>
 
+                      <!-- make donate only accept money numbers -->
                       <label for="donate">Amount to Donate</label>
-                      <input type="text" id="donate" name="donate" placeholder="Amount to Donate..">
+                      <input type="text" id="donate" name="donate" placeholder="Amount to Donate.." pattern="^\d+(\.\d{1,2})?$" title="Please enter a valid amount (e.g., 10, 10.00)" required>
 
+                      <!-- make placement have to change from select to another -->
                       <label for="where_to">Placement</label>
                       <select id="where_to" name="where_to">
+                        <option value="general">Select</option>
                         <option value="general">General</option>
                         <option value="person">Person</option>
                         <option value="charity">Charity</option>
                       </select>
                   
+                      <!-- prevent curses or slurs?-->
                       <label for="instructions">Special Instructions</label>
                       <textarea id="instructions" name="instructions" placeholder="Write something.." style="height:200px"></textarea>
 
