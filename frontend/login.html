@@ -1,0 +1,47 @@
+<!doctype html> 
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Log in</title>
+    <!-- Add the link tag here -->
+    <link rel="stylesheet" href="login.css">
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 2px solid black; 
+        }
+        th, td {
+            border: 1px solid black; 
+            padding: 8px; 
+        }
+        /* For serif font*/
+        body {
+            font-family: "Times New Roman", Times, serif;
+            color: rgb(255, 255, 255);
+        }
+        /* For sans-serif*/
+        header, nav {
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> Log in </h1>
+    </header>
+    <div class="topnav">
+        <!-- add a log in text for both username and password -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+    </div>
+</body>
+
+<footer>
+    <!-- button for sumbiting the log in info, and return to home page -->
+    <button type="submit">Log In</button>
+    <button type="button" onclick="location.href='Home.html'">Cancel</button>
+</footer>
+</html>

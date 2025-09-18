@@ -1,0 +1,17 @@
+body {
+    background-color: #ffffff;
+  }
+  
+  h1,h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  
+  p {
+    color: rgb(0, 0, 0)
+  }
+
+  button {
+    position:relative; 
+    bottom: 0;
+  }

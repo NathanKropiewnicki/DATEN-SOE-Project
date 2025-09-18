@@ -1,0 +1,72 @@
+<!doctype html> 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Page 2</title>
+        <link rel="stylesheet" href="pageTwo.css">
+        <style>
+            table {
+                border-collapse: collapse;
+                border: 2px solid black; 
+            }
+            th, td {
+                border: 1px solid black; 
+                padding: 8px; 
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1> My Second page</h1>
+            <nav>
+                <h2>HTML Forms</h2>
+                <div class="container">
+                    <form action="https://www.w3schools.com/action_page.php">
+                  
+                      <label for="name">Name First and Last</label>
+                      <input type="text" id="name" name="name" placeholder="Your name..">
+
+                      <label for="donate">Amount to Donate</label>
+                      <input type="text" id="donate" name="donate" placeholder="Amount to Donate..">
+
+                      <label for="where_to">Placement</label>
+                      <select id="where_to" name="where_to">
+                        <option value="general">General</option>
+                        <option value="person">Person</option>
+                        <option value="charity">Charity</option>
+                      </select>
+                  
+                      <label for="instructions">Special Instructions</label>
+                      <textarea id="instructions" name="instructions" placeholder="Write something.." style="height:200px"></textarea>
+
+                      <input type="submit" value="Submit">
+                  
+                    </form>
+                  </div>
+            </nav>
+        </header>
+        <p> </p> <!-- space between submit button and table-->
+    </body>
+<footer>
+    <table>
+        <h3>Links</h3> 
+        <nav>
+            <!-- Links to other pages -->
+            <tr>
+                <td><label for="home">Page 1</label></td>
+                <td><a id="home" href="Home.html">Home</a></td>
+            </tr>
+            <tr>
+                <td><label for="page3">Finance</label></td>
+                <td><a id="page3" href="PageThree.html">Finance</a></td>
+            </tr>
+            <tr>
+                <td><label for="page4">Graph</label></td>
+                <td><a id="page4" href="PageFour.html">Graph</a></td>
+            </tr>
+        </nav>
+    </table>
+    <script src="PageTwo.js"></script>
+    <script src="cookies.js"></script>
+</footer>
+</html>

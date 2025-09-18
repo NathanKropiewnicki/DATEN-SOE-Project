@@ -1,0 +1,51 @@
+<!doctype html> 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Page 3</title>
+        <!-- Add the link tag here -->
+        <link rel="stylesheet" href="pageThree.css">
+        <style>
+            table {
+                border-collapse: collapse;
+                border: 2px solid black; 
+            }
+            th, td {
+                border: 1px solid black; 
+                padding: 8px; 
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1> Finance Book/Logs </h1>
+        </header>
+        <div class = "button">
+            <button onclick="setTimeout(myFunction, 1000);">1 sec timer</button>
+            <script>
+                function myFunction() {
+                    alert('worked');
+                }
+            </script>    
+        </div>
+        <p> </p> <!-- Space between button and table -->
+        <table>
+            <h3>Links</h3>  
+            <nav>
+                <tr>
+                    <td><label for="home">Home</label></td>
+                    <td><a id="home" href="Home.html">Home</a></td>
+                </tr>
+                <tr>
+                    <td><label for="page2">Donation Form</label></td>
+                    <td><a id="page2" href="PageTwo.html">Form</a></td>
+                </tr>
+                <tr>
+                    <td><label for="page4">Graph</label></td>
+                    <td><a id="page4" href="PageFour.html">Graph</a></td>
+                </tr>
+            </nav>
+        </table>
+        <script src="cookies.js"></script>
+    </body>
+</html>
