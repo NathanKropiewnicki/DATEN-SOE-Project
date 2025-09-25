@@ -14,6 +14,16 @@ Bethel University Project for CSC 340 Software Engineering Theory.
   Diego Rodriguez 
 </ul>
 
-
+# Sprint
+- Finish previous tasks (connecting database and frontent)
+- Create a monthly/yearly income and display on frontend
+  
 # Backlog
+- Finish setting up database
+- Connect database to front end
+- Input demo data and test
+
+- Pull donations from database
+- Conenct with frontend
+- Build a monthly income page in frontend
 
