@@ -23,6 +23,7 @@ Bethel University Project for CSC 340 Software Engineering Theory.
 - Connect database to front end
 - Input demo data and test
 
+- Turn into an app
 - Pull donations from database
 - Conenct with frontend
 - Build a monthly income page in frontend
