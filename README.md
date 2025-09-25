@@ -27,3 +27,13 @@ Bethel University Project for CSC 340 Software Engineering Theory.
 - Conenct with frontend
 - Build a monthly income page in frontend
 
+
+# Retrospective
+### What went well
+Got most of our goal accomplished. 
+Chose a good size task for a sprint
+
+### What needs to improve
+Better communication and backlog
+Everyone having access to everything
+
